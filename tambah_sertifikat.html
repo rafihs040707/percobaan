@@ -44,29 +44,34 @@
 
     <form action="#" method="POST" class="mx-4">
 
-        <div class="mb-2">
+        <div class="mb-4">
             <label for="nama" class="form-label ms-3">Nama: </label>
             <input type="text" name="nama" placeholder="Example: Arkan Beckham" class="form-control" maxlength="64"
                 required>
         </div>
 
-        <div class="mb-2">
+        <div class="mb-4">
             <label for="pelatihan" class="form-label ms-3">Pelatihan: </label>
             <input type="text" name="pelatihan" placeholder="Example: Cyber Security" class="form-control"
                 maxlength="64" required>
         </div>
 
-        <div class="mb-2">
-            <label for="periode" class="form-label ms-3">Periode: </label>
-            <input type="date" name="periode" class="form-control" required onfocus="this.showPicker()">
+        <div class="mb-4">
+            <label for="periode_awal" class="form-label ms-3">Periode Awal: </label>
+            <input type="date" name="periode_awal" class="form-control" required onfocus="this.showPicker()">
         </div>
 
-        <div class="mb-2">
+        <div class="mb-4">
+            <label for="periode_akhir" class="form-label ms-3">Periode Akhir: </label>
+            <input type="date" name="periode_akhir" class="form-control" required onfocus="this.showPicker()">
+        </div>
+
+        <div class="mb-4">
             <label for="issued_date" class="form-label ms-3">Issued Date: </label>
             <input type="date" name="issued_date" class="form-control" required onfocus="this.showPicker()">
         </div>
 
-        <div class="mb-2">
+        <div class="mb-4">
             <label for="template" class="form-label ms-3">Template: </label>
             <select for="template" name="template" class="form-select form-select-md"
                 aria-label=".form-select-md example" required>
@@ -76,7 +81,7 @@
             </select>
         </div>
 
-        <div class="mb-2">
+        <div class="mb-4">
             <label for="status" class="form-label ms-3">Status: </label>
             <select for="status" name="status" class="form-select form-select-md"
                 aria-label=".form-select-md example" required>
